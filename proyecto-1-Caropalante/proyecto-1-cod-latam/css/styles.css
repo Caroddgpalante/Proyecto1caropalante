@@ -1,0 +1,227 @@
+:root{
+    --navbar-shallow-color: #f1d4f1; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
+header {
+    background-color: rgb(250, 242, 247);
+    height: 95px;
+}
+img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+ }
+ 
+    
+.nombre{
+    font-family: 'Lato', sans-serif; 
+    color: rgb(180, 16, 158); 
+    font-size: x-small;
+ }
+ 
+ .barra ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .barra li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .barra li:last-child {
+    margin-right: 0;
+  }
+
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Lato', sans-serif;
+  color: rgb(128, 89, 118);
+  font-size: smaller
+  
+}
+
+.yop {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+  }
+
+ body{
+    background-color: rgb(251, 238, 252);padding: 50px;
+ }
+
+ h1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  color: rgb(128, 89, 118);
+  font-size: larger;
+ }
+
+ h1 {
+    margin-bottom: 15px;
+  }
+
+ p {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80%;
+    margin: 0 auto;
+    text-indent: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+  p2{
+    text-align: justify;
+    text-align: center;
+    text-justify: inter-word;
+    width: 80%;
+    margin: 0 auto;
+    text-indent: 15px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(189, 172, 187);
+  }
+ 
+ footer{
+    text-align: center; color: rgb(240, 231, 243);
+    background-color: blueviolet;
+    height: 35px;
+    font-size: 14px;
+}
+
+.descarga{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.boton{
+    
+    font-family: 'Lato', sans-serif;
+    color: rgb(238, 200, 228);
+    font-size: medium;
+    display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #400f4d;
+  background-color: rgb(202, 106, 206);
+  border-radius: 20px;
+  
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(243, 197, 231);
+    font-size: larger;
+
+}
+h2 {
+    margin-bottom: 15px;
+  }
+.sobre{
+    text-align: center;
+    
+   
+}
+section {
+    margin-bottom: 40px;
+   
+  
+  }
+
+   
+#Contacto article {
+    text-align: center;
+}  
+#Contacto article {
+    text-align: center;
+}  
+#Contacto article ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Contacto article ul a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+#Caro{
+    background-color: darkorchid;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80%;
+    margin: 0 auto;
+    text-indent: 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 40px;  
+    
+}
+
+
+
